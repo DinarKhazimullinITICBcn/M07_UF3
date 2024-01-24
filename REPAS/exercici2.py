@@ -7,8 +7,6 @@ elif iva == 10:
     ivaCalcul = preu * 0.10
 elif iva == 21:
     ivaCalcul = preu * 0.21
-else :
-    ivaCalcul = 0
 if ivaCalcul != 0:
     print('El preu del usuari es:', preu)
     print('El calcul del iva es: ', ivaCalcul)
