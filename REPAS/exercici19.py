@@ -1,0 +1,15 @@
+areas_pis = ['Menjador', 10.15, 'Rebedor', 9.56, 'Habitació1', 12.34, 'Terrassa', 15.55, 'Lavabo', 7.98, 'Cuina', 12, 'Habitació2', 12.23]
+print(f"El segon elemnet de la llista es: {areas_pis[1]}")
+print(f"El ultim element de la llista es: {areas_pis[-1]}")
+print("L'area total del pis es: ", areas_pis[1] + areas_pis[3] + areas_pis[5] + areas_pis[7] + areas_pis[9])
+print(f"D'el primer al tercer element: {areas_pis[0:2]}")
+print(f"Els elements del tercer al ultim son: {areas_pis[2:]}")
+print(f"Total de l'area dels dos pisos: {areas_pis[5] + areas_pis[-1]}")
+print(f"Area lavabo abans de la modificacio: {areas_pis[9]}")
+areas_pis[9] = 9
+print(f"Area lavabo despres de la modificacio: {areas_pis}")
+print(f"Llista abans de afegir pati interior: {areas_pis}")
+areas_pis.append('Pati interior')
+areas_pis.append(2.78)
+print(f"Lista despres de afegir pati interior: {areas_pis}")
+print(f"Area total: {areas_pis[1] + areas_pis[3] + areas_pis[5] + areas_pis[7] + areas_pis[9] + areas_pis[-1]}")
