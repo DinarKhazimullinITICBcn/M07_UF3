@@ -4,7 +4,7 @@ services:
     image: postgres:13
     container_name: db
     environment:  
-      - POSTGRES_DB=dbPostGres
+      - POSTGRES_DB=postgres
       - POSTGRES_PASSWORD=3412
       - POSTGRES_USER=dinar
     ports:
