@@ -1,8 +1,9 @@
-import connection
 import psycopg2
+import connection
+import create
 try :
-    connect = connection.conn.cursor()
-    print(connect)
+    connection.connect()
+    create.consulta()
 except (Exception, psycopg2.Error) as error:
     print("Error", error)
 finally:
