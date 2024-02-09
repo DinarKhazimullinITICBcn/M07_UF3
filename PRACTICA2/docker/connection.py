@@ -9,3 +9,4 @@ def connect() :
     )
     conectar = conn.cursor()
     print(conectar)
+    return conn, conectar

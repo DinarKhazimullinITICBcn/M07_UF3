@@ -1,10 +1,14 @@
 import psycopg2
 import connection
+import create_table
 import create
+import read
 try :
-    connection.connect()
-    create.consulta()
+    conn, conectar = connection.connect()
+    create_table.consulta(conn, conectar)
+    create.crear(conectar)
+    read.buscar(conectar)
 except (Exception, psycopg2.Error) as error:
     print("Error", error)
 finally:
-    connection.conn.close()
+    conn.close()
