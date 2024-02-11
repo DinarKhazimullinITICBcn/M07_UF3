@@ -11,4 +11,4 @@
 ### Actualitzar personatge
 ![Actualitzar personatge](PRACTICA2/img/update.png)
 ### Eliminar personatge
-![Eliminar personatge]t(PRACTICA2/img/delete.png)
+![Eliminar personatge](PRACTICA2/img/delete.png)
